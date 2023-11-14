@@ -34,10 +34,36 @@ const myFn = function(){
 console.log('Hello World');
 }
 
-console.log(typeof bigNumber)
-console.log(typeof outsideTemp)
-console.log(typeof myFn)
-console.log(typeof myObj)
-console.log(typeof heros)
-console.log(typeof Id)
+// console.log(typeof bigNumber)
+// console.log(typeof outsideTemp)
+// console.log(typeof myFn)
+// console.log(typeof myObj)
+// console.log(typeof heros)
+// console.log(typeof Id)
+
+
+
+// _____________________Memory_types_____________________
+
+// Stack(primitive)   Heap(Non Primitive)
+
+let myYoutubeName = 'hiteshchaudhary.com'
+
+let anotherName = myYoutubeName
+anotherName = 'chai_aur_code'
+
+// console.log(myYoutubeName)
+// console.log(anotherName)
+
+let userOne = {
+    email: 'user@google.com',
+    upi: 'user@ybl'
+}
+
+let userTwo = userOne
+
+userTwo.email = 'mani@google.com'
+
+console.log(userOne);
+console.log(userTwo);
 
