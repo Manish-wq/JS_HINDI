@@ -16,9 +16,11 @@ const user = {
 
 // console.log(this)
 
+//_______________this. in function______________
+
 // function chai(){
 //     let username = 'Manish'
-//     console.log(this.username)
+//     console.log(this.username)  //this context indication is only working in objects
 // }
 
 // chai()
@@ -43,13 +45,13 @@ const user = {
 // const addTwo = (num1, num2)=>{
 //     return num1+num2
 // }
-// const addTwo = (num1, num2) => num1+num2  implicit return
+// const addTwo = (num1, num2) => num1+num2  //implicit return
 // const addTwo = (num1, num2) => (num1+num2)
-const addTwo = (num1, num2) => ({username: 'Hitesh'})
+// const addTwo = (num1, num2) => ({username: 'Hitesh'})
 
 
 
-console.log(addTwo(3,5))
+// console.log(addTwo(3,5))
 
 
 // const myArray = [2, 3, 5, 7]
