@@ -13,7 +13,7 @@ because of issue in block scope and functional scope*/
 
 accountEmail='hc@hc.com'
 accountPwd='121212'
-accountCity='Bengaluru'
+// accountCity='Bengaluru'
 
 console.table([accountId, accountEmail, accountPwd, accountCity, accountState])
 
